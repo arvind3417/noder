@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 var requests = require("requests"); 
 
-const homefile = fs.readFileSync("home.html", "utf-8")
+const homefile = fs.readFileSync("index.html", "utf-8")
 // The down thing isn't working need to be analysed
 // const replaceVal = (tempVal,orgVal) => {
 // let temperat = tempVal.replace(" {%tempval%} ", orgVal.main.temp);
